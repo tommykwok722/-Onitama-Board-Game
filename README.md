@@ -1,2 +1,2 @@
-# -Onitama-Board-Game
+# Onitama Board Game
 An Implementation of Board Game by MATLAB
