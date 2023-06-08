@@ -177,3 +177,62 @@ e | a | a | A | a | a |    .....    .....
                         Player A
 ```
 ## How to play the game
+1. Player picks a moving card on his sides (card 1 or card 2).
+2. Player moves his pawn according to the movement card.
+3. Player swaps the card he picked with the side card.
+4. Player then moves the wall (W).
+5. Player finishes his turns. It is the other player’s turn. Rotate the side card 180 degrees.
+6. Players take turns of doing the above until the end of the game.
+
+For example, player A can pick Card 1, move the pawn e4 to d3. Then move W to the right.
+Then it is now player B’s turn, the set up looks like the following.
+Note that the side card is rotated 180 degrees as it is now player B’s turn. The cards should be viewed from player B’s angle.
+The direction of the arrow next to the side card is also reversed.
+```
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a | b | b | B | b | b |    ...x.    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    .....   v
+c |   | W |   |   |   |                      x.ox.   v
+  +---+---+---+---+---+    ..x..    .....    ...x.   v
+d |   |   | a |   |   |    ...x.    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..ox.
+e | a | a | A |   | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+```
+
+### Special Case: No Possible Move
+It is possible that the player has no possible move. For example,
+```
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   |   |   |    ...x.    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    .x...   ^
+c | W | b |   | B |   |                      .xo.x   ^
+  +---+---+---+---+---+    .....    .....    .....   ^
+d | a |   |   |   |   |    .xx..    ..x..    .....
+  +---+---+---+---+---+    ..o..    .xo..
+e | A |   |   |   |   |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+```
+
+Player A can still pick a card and move W but no need to move his pawn.
+However, if you have valid moves, you must choose one of those moves, even if the move is bad for you.
+
+## Ending
+The player wins the game if
+1. He moves his general to opponent’s military base (i.e. move A to a3, or move B to e3) or
+2. He captures opponent’s general.
+
+The game is a tie if
+- After `turnNum` turns have been played and no one wins. (`turnNum` is the maximum number of turns played)
