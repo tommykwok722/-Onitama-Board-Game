@@ -1,0 +1,668 @@
+*******************************
+*********  Sample 11  *********
+*******************************
+
+Input the test case number: 11
+Number of turns left: 50
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a | b | b | B | b | b |    ...x.    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    ..x..    .x.x.    ..x..
+  +---+---+---+---+---+    .....    .....    ...x.   ^
+c | W |   |   |   |   |                      ..o..   ^
+  +---+---+---+---+---+    .....    .....    .....   ^
+d |   |   |   |   |   |    .x...    ..x..    .....
+  +---+---+---+---+---+    .xo.x    ..ox.
+e | a | a | A | a | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: e1
+Input the position you want to move the selected pawn: d1
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a | b | b | B | b | b |    ...x.    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ..x..   ^
+c | W |   |   |   |   |                      ..ox.   ^
+  +---+---+---+---+---+    .....    ..x..    .....   ^
+d | a |   |   |   |   |    .x...    ...x.    .....
+  +---+---+---+---+---+    .xo.x    ..o..
+e |   | a | A | a | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): d
+
+Number of turns left: 49
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a | b | b | B | b | b |    ...x.    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    .....   v
+c | a |   |   |   |   |                      .xo..   v
+  +---+---+---+---+---+    .....    ..x..    ..x..   v
+d | W |   |   |   |   |    .x...    ...x.    .....
+  +---+---+---+---+---+    .xo.x    ..o..
+e |   | a | A | a | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: a1
+Input the position you want to move the selected pawn: b1
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B | b | b |    .....    ...x.
+  +---+---+---+---+---+    .xo..    ..o..    Side card
+b | b |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ...x.   v
+c | a |   |   |   |   |                      ..o..   v
+  +---+---+---+---+---+    .....    ..x..    ..x..   v
+d | W |   |   |   |   |    .x...    ...x.    .....
+  +---+---+---+---+---+    .xo.x    ..o..
+e |   | a | A | a | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): u
+You cannot move the wall there. It is occupied by your opponent.
+u(up), l(left), d(down), r(right), s(stay): l
+You cannot move the wall out of bound.
+u(up), l(left), d(down), r(right), s(stay): r
+
+Number of turns left: 48
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B | b | b |    .....    ...x.
+  +---+---+---+---+---+    .xo..    ..o..    Side card
+b | b |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ..x..   ^
+c | a |   |   |   |   |                      ..o..   ^
+  +---+---+---+---+---+    .....    ..x..    .x...   ^
+d |   | W |   |   |   |    .x...    ...x.    .....
+  +---+---+---+---+---+    .xo.x    ..o..
+e |   | a | A | a | a |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: c1
+Input the position you want to move the selected pawn: c3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B | b | b |    .....    ...x.
+  +---+---+---+---+---+    .xo..    ..o..    Side card
+b | b |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    .x...   ^
+c |   |   | a |   |   |                      .xo.x   ^
+  +---+---+---+---+---+    .....    ..x..    .....   ^
+d |   | W |   |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    ..o..    ..o..
+e |   | a | A | a | a |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): s
+
+Number of turns left: 47
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B | b | b |    .....    ...x.
+  +---+---+---+---+---+    .xo..    ..o..    Side card
+b | b |   |   |   |   |    ..x..    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    .....   v
+c |   |   | a |   |   |                      x.ox.   v
+  +---+---+---+---+---+    .....    ..x..    ...x.   v
+d |   | W |   |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    ..o..    ..o..
+e |   | a | A | a | a |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: a4
+Input the position you want to move the selected pawn: b3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B |   | b |    .....    .....
+  +---+---+---+---+---+    .xo..    x.ox.    Side card
+b | b |   | b |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    .....    .....    ...x.   v
+c |   |   | a |   |   |                      ..o..   v
+  +---+---+---+---+---+    .....    ..x..    .x.x.   v
+d |   | W |   |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    ..o..    ..o..
+e |   | a | A | a | a |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): u
+
+Number of turns left: 46
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b | B |   | b |    .....    .....
+  +---+---+---+---+---+    .xo..    x.ox.    Side card
+b | b |   | b |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    .....    .....    .x.x.   ^
+c |   | W | a |   |   |                      ..o..   ^
+  +---+---+---+---+---+    .....    ..x..    .x...   ^
+d |   |   |   |   |   |    ..x..    ...x.    .....
+  +---+---+---+---+---+    ..o..    ..o..
+e |   | a | A | a | a |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: c3
+Input the position you want to move the selected pawn: a3
+Player A, you capture opponent's general. You win.
+
+
+*******************************
+*********  Sample 12  *********
+*******************************
+
+Input the test case number: 12
+Number of turns left: 10
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    .....    ...x.
+  +---+---+---+---+---+    ..ox.    ..o..    Side card
+b |   |   |   | B | b |    ..x..    .x...    .....
+  +---+---+---+---+---+    .x...    .....    ..x..   v
+c | b |   |   | W | a |                      ..o..   v
+  +---+---+---+---+---+    .....    .....    .....   v
+d |   |   |   | a | A |    ...x.    ..x.x    ..x..
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: a1
+You have no pawn at a1.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: c4
+You have no pawn at c4.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: e2
+You have no pawn at e2.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: a2
+Input the position you want to move the selected pawn: b3
+Not a valid move by card 1.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: c1
+Input the position you want to move the selected pawn: d1
+Not a valid move by card 2.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: a4
+Input the position you want to move the selected pawn: b4
+Your pawn cannot move there. The position is occupied by your own pawn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: b4
+Input the position you want to move the selected pawn: c4
+Your pawn cannot move there. The position is occupied by the wall.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: b5
+Input the position you want to move the selected pawn: c5
+Player B, you capture opponent's soldier. The soldier is removed from the board.
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B |   |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    .....   v
+c | b |   |   | W | b |                      ..ox.   v
+  +---+---+---+---+---+    .....    .....    ..x..   v
+d |   |   |   | a | A |    ...x.    ..x.x    .x...
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): d
+You cannot move the wall there. It is occupied by your opponent.
+u(up), l(left), d(down), r(right), s(stay): u
+You cannot move the wall there. It is occupied by your general.
+u(up), l(left), d(down), r(right), s(stay): r
+
+Number of turns left: 9
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B |   |    .....    .x...    ...x.
+  +---+---+---+---+---+    ..x..    .....    ..x..   ^
+c | b |   |   | b | W |                      .xo..   ^
+  +---+---+---+---+---+    .....    .....    .....   ^
+d |   |   |   | a | A |    ...x.    ..x.x    .....
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: c4
+You have no pawn at c4.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: d5
+Input the position you want to move the selected pawn: c4
+Not a valid move by card 2.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: d5
+Input the position you want to move the selected pawn: c5
+Your pawn cannot move there. The position is occupied by the wall.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: e2
+Input the position you want to move the selected pawn: c4
+Player A, you capture opponent's soldier. The soldier is removed from the board.
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B |   |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    ...x.   ^
+c | b |   |   | a | W |                      .....   ^
+  +---+---+---+---+---+    ...x.    .....    .o...   ^
+d |   |   |   | a | A |    ..x..    ..x.x    ....x
+  +---+---+---+---+---+    .xo..    ..o..
+e |   |   |   | a |   |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): d
+You cannot move the wall there. It is occupied by your general.
+u(up), l(left), d(down), r(right), s(stay): l
+
+Number of turns left: 8
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B |   |    .....    .x...    x....
+  +---+---+---+---+---+    ..x..    .....    ...o.   v
+c | b |   |   | W | a |                      .....   v
+  +---+---+---+---+---+    ...x.    .....    .x...   v
+d |   |   |   | a | A |    ..x..    ..x.x    .....
+  +---+---+---+---+---+    .xo..    ..o..
+e |   |   |   | a |   |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: b4
+Input the position you want to move the selected pawn: c3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    x....
+a |   | b |   | b |   |    ..x..    ...o.
+  +---+---+---+---+---+    ..o..    .....    Side card
+b |   |   |   |   |   |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    ...x.   v
+c | b |   | B | W | a |                      ..o..   v
+  +---+---+---+---+---+    ...x.    .....    .x...   v
+d |   |   |   | a | A |    ..x..    ..x.x    .....
+  +---+---+---+---+---+    .xo..    ..o..
+e |   |   |   | a |   |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): s
+
+Number of turns left: 7
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    x....
+a |   | b |   | b |   |    ..x..    ...o.
+  +---+---+---+---+---+    ..o..    .....    Side card
+b |   |   |   |   |   |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    ...x.   ^
+c | b |   | B | W | a |                      ..o..   ^
+  +---+---+---+---+---+    ...x.    .....    .x...   ^
+d |   |   |   | a | A |    ..x..    ..x.x    .....
+  +---+---+---+---+---+    .xo..    ..o..
+e |   |   |   | a |   |    .....    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: d4
+Input the position you want to move the selected pawn: d3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    x....
+a |   | b |   | b |   |    ..x..    ...o.
+  +---+---+---+---+---+    ..o..    .....    Side card
+b |   |   |   |   |   |    .....    .x...    ...x.
+  +---+---+---+---+---+    ..x..    .....    ..x..   ^
+c | b |   | B | W | a |                      .xo..   ^
+  +---+---+---+---+---+    .....    .....    .....   ^
+d |   |   | a |   | A |    ...x.    ..x.x    .....
+  +---+---+---+---+---+    ..o..    ..o..
+e |   |   |   | a |   |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): l
+You cannot move the wall there. It is occupied by your opponent.
+u(up), l(left), d(down), r(right), s(stay): d
+
+Number of turns left: 6
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    x....
+a |   | b |   | b |   |    ..x..    ...o.
+  +---+---+---+---+---+    ..o..    .....    Side card
+b |   |   |   |   |   |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    .....   v
+c | b |   | B |   | a |                      ..ox.   v
+  +---+---+---+---+---+    .....    .....    ..x..   v
+d |   |   | a | W | A |    ...x.    ..x.x    .x...
+  +---+---+---+---+---+    ..o..    ..o..
+e |   |   |   | a |   |    .x...    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: c3
+Input the position you want to move the selected pawn: e3
+Player B, your general reaches opponent's military base. You win.
+
+
+*******************************
+*********  Sample 13  *********
+*******************************
+
+Input the test case number: 13
+Number of turns left: 3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   | W |   |    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   | B |    .....    .x.x.    .....
+  +---+---+---+---+---+    .x.x.    .....    ..x..   v
+c |   |   |   |   | a |                      ..o..   v
+  +---+---+---+---+---+    .....    ....x    .....   v
+d |   |   |   | a | A |    ...x.    .....    .....
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    .....    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: b5
+Input the position you want to move the selected pawn: a5
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   | W | B |    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   |   |   |    .....    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ..x..   v
+c |   |   |   |   | a |                      ..o..   v
+  +---+---+---+---+---+    .....    ....x    .....   v
+d |   |   |   | a | A |    ...x.    .....    .x.x.
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    .....    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): l
+You cannot move the wall to a military base.
+u(up), l(left), d(down), r(right), s(stay): d
+
+Number of turns left: 2
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   |   | B |    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | W |   |    .....    .x.x.    .x.x.
+  +---+---+---+---+---+    .....    .....    .....   ^
+c |   |   |   |   | a |                      ..o..   ^
+  +---+---+---+---+---+    .....    ....x    ..x..   ^
+d |   |   |   | a | A |    ...x.    .....    .....
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    .....    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+There is no valid move.
+Simply pick a card you want to swap with the side card (1 or 2): 1
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   |   | B |    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | W |   |    .....    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ...x.   ^
+c |   |   |   |   | a |                      ..o..   ^
+  +---+---+---+---+---+    .x.x.    ....x    .....   ^
+d |   |   |   | a | A |    .....    .....    ....x
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    ..x..    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): s
+
+Number of turns left: 1
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   |   |   |   | B |    ..x..    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | W |   |    .....    .x.x.    x....
+  +---+---+---+---+---+    .....    .....    .....   v
+c |   |   |   |   | a |                      ..o..   v
+  +---+---+---+---+---+    .x.x.    ....x    .x...   v
+d |   |   |   | a | A |    .....    .....    .....
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    ..x..    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+There is no valid move.
+Simply pick a card you want to swap with the side card (1 or 2): 1
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    x....    .....
+a |   |   |   |   | B |    .....    .....
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | W |   |    .x...    .x.x.    .....
+  +---+---+---+---+---+    .....    .....    ..x..   v
+c |   |   |   |   | a |                      ..o..   v
+  +---+---+---+---+---+    .x.x.    ....x    .....   v
+d |   |   |   | a | A |    .....    .....    .....
+  +---+---+---+---+---+    ..o..    ..ox.
+e |   |   |   |   |   |    ..x..    .....
+  +---+---+---+---+---+    .....    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): r
+
+This is the last turn. The game is tied.
+
+
+*******************************
+*********  Sample 14  *********
+*******************************
+
+Input the test case number: 12
+Number of turns left: 10
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   | b |   |    .....    ...x.
+  +---+---+---+---+---+    ..ox.    ..o..    Side card
+b |   |   |   | B | b |    ..x..    .x...    .....
+  +---+---+---+---+---+    .x...    .....    ..x..   v
+c | b |   |   | W | a |                      ..o..   v
+  +---+---+---+---+---+    .....    .....    .....   v
+d |   |   |   | a | A |    ...x.    ..x.x    ..x..
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 0
+Card 1, c1->d1
+Card 1, c1->c2
+Card 1, a2->b2
+Card 1, a2->a3
+Card 1, a4->c3
+Card 1, a4->a5
+Card 1, b4->d3
+Card 1, b5->d4
+Card 1, b5->c5
+Card 2, c1->b2
+Card 2, a2->b1
+Card 2, a4->b3
+Card 2, b4->c3
+Card 2, b4->a5
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: a4
+Input the position you want to move the selected pawn: c3
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   |   |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B | b |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    .....   v
+c | b |   | b | W | a |                      ..ox.   v
+  +---+---+---+---+---+    .....    .....    ..x..   v
+d |   |   |   | a | A |    ...x.    ..x.x    .x...
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): s
+
+Number of turns left: 9
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   |   |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B | b |    .....    .x...    ...x.
+  +---+---+---+---+---+    ..x..    .....    ..x..   ^
+c | b |   | b | W | a |                      .xo..   ^
+  +---+---+---+---+---+    .....    .....    .....   ^
+d |   |   |   | a | A |    ...x.    ..x.x    .....
+  +---+---+---+---+---+    .....    ..o..
+e |   | a |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 0
+Card 2, e2->d2
+Card 2, c5->b5
+Pick a card (1 or 2) or enter 0 to list all moves: 2
+Input the position of your pawn you want to move: e2
+Input the position you want to move the selected pawn: d2
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   |   |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B | b |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    ..x.x   ^
+c | b |   | b | W | a |                      ..o..   ^
+  +---+---+---+---+---+    .....    ...x.    .....   ^
+d |   | a |   | a | A |    ...x.    ..x..    .....
+  +---+---+---+---+---+    .....    .xo..
+e |   |   |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player A, choose the movement of W.
+u(up), l(left), d(down), r(right), s(stay): r
+
+Number of turns left: 8
+                        Player B
+                          Card 1   Card 2
+  +---+---+---+---+---+    .....    .....
+a |   | b |   |   |   |    ..x..    ...x.
+  +---+---+---+---+---+    ..o..    ..o..    Side card
+b |   |   |   | B | b |    .....    .x...    .....
+  +---+---+---+---+---+    ..x..    .....    .....   v
+c | b |   | b | a | W |                      ..o..   v
+  +---+---+---+---+---+    .....    ...x.    x.x..   v
+d |   | a |   | a | A |    ...x.    ..x..    .....
+  +---+---+---+---+---+    .....    .xo..
+e |   |   |   | a |   |    .o...    .....
+  +---+---+---+---+---+    ....x    .....
+    1   2   3   4   5     Card 1   Card 2
+                        Player A
+Player B, it is your turn.
+Pick a card (1 or 2) or enter 0 to list all moves: 0
+Card 1, c1->b1
+Card 1, c1->e1
+Card 1, a2->c2
+Card 1, c3->b3
+Card 1, c3->e3
+Card 1, b4->a4
+Card 1, b4->d4
+Card 1, b5->a5
+Card 1, b5->d5
+Card 2, c1->b2
+Card 2, a2->b1
+Card 2, c3->d2
+Card 2, b4->a5
+Card 2, b5->c4
+Pick a card (1 or 2) or enter 0 to list all moves: 1
+Input the position of your pawn you want to move: b5
+Input the position you want to move the selected pawn: d5
+Player B, you capture opponent's general. You win.
+diary off
