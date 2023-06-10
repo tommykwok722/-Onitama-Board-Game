@@ -1,0 +1,18 @@
+Test for valid movements:
+Test case 41, player A.
+CardPicked=1, moveFrom=c3, moveTo=b4, wDir=l
+Test case 41, player B.
+Error in function checkPmove() at line 316.
+
+Error Message:
+Index in position 1 exceeds array bounds (must not exceed 1).
+
+Test for no movement:
+Test case 42, player A.
+CardPicked=1, moveFrom=XX, moveTo=XX, wDir=u
+
+Test for winning movement:
+Test case 43, player A.
+CardPicked=2, moveFrom=c3, moveTo=d3, wDir=u
+Test case 43, player B.
+CardPicked=1, moveFrom=d3, moveTo=e3, wDir=u
