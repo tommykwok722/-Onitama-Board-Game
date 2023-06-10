@@ -15,7 +15,7 @@ The function returns the following
 5. If there is no valid move, `moveFrom` and `moveTo` should be 'XX'.
 
 ## Sample Output
-To determine the AI is good or not, the scripts `AITest1.m`, `AITest2.m` and `AITest3.m` contain data for different test cases to test the AI `AI1155126361.m`. There are 3 samples to test the AI, each sample has different scenarios and different output.
+To determine the AI is good or not, the scripts `AITest1.m`, `AITest2.m` and `AITest3.m` contain data for different test cases to test the AI `AI1155126361.m` on whether the AI can return valid or winning moves. There are 3 samples to test the AI, each sample has different scenarios and different output.
 
 ## Design of my AI
 It is difficult to design a good AI. The AI program designed by me is obviously not the best and might contain errors. However, it is a good experience and practice for me to understand how computer programs and AI behave based on different conditions and scenarios.
