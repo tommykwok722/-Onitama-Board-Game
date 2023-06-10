@@ -30,7 +30,7 @@ It is difficult to design a good AI. The AI program designed by me is obviously 
    - Check whether or not to capture opponent's general.
    - Check whether or not to reach opponent's military base.
 
-3. **Checking all possible direction of W for each move**
+3. **Checking all possible directions of W for each move**
    - Check whether it is valid or not to move the wall upwards.
    - Check whether it is valid or not to move the wall leftwards.
    - Check whether it is valid or not to move the wall downwards.
