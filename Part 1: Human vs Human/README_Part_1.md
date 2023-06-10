@@ -54,4 +54,4 @@ You can assume users always input the correct format. That implies
 3. When the user is asked to input a position (e.g. e3), he will input the correct format.
 
 ## Sample Output
-To make sure the game works functionally, the script `setup.m` contains data for different test cases to test the program `game.m`. There are a total of 6 test cases (some of them contain sub-cases), which include different scenarios and different output.
+To make sure the game works functionally, the script `setup.m` contains data for different test cases to test the program `game.m`. There are 6 samples to test the program, each sample has different scenarios and different output.
