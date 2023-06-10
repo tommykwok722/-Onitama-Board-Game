@@ -1,4 +1,4 @@
-## Explanations
+## Specification
 
 `game.m` is the main file to implement the game.
 
