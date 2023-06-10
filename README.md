@@ -2,7 +2,14 @@
 An Implementation of Board Game by MATLAB.
 
 ## Introduction
-This project is about writing a game. The game is based on the board game named **Onitama**, with a few rules added to the original Onitama board game.
+This individual project is one of the final exams during my undergraduate studies, which is about writing a game. The game is based on the board game named **Onitama**, with a few rules added to the original Onitama board game.
+
+The project consists of 2 parts. <br>
+**Part 1: Human vs Human** <br>
+Code the game which allows two players to play against each other.
+
+**Part 2: AI vs AI** <br>
+Write an AI for the game, then play against the AI written by other students and of course, my professor!
 
 The game is played by two players, A and B. Each player controls an army of 5 pawns, represented by **A** or **a** (**B** or **b**). In the board, **A** or **B** represent generals, **a** or **b** represent soldiers. The pawns are placed on a 5×5 board. **W** represents a wall. Here is a sample set up of the game.
 ```
@@ -235,4 +242,4 @@ The player wins the game if
 2. He captures opponent’s general.
 
 The game is a tie if
-- After `turnNum` turns have been played and no one wins. (`turnNum` is the maximum number of turns played)
+- After $n$ turns have been played and no one wins. ($n$ is the maximum number of turns played)
