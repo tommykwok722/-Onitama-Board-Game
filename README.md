@@ -242,4 +242,4 @@ The player wins the game if
 2. He captures opponent’s general.
 
 The game is a tie if
-- After $n$ turns have been played and no one wins. ($n$ is the maximum number of turns played)
+- After $n$ turns have been played and no one wins, where $n$ is the maximum number of turns played.
